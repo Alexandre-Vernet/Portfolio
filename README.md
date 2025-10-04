@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio - Alexandre Vernet
 
 
 <p align="center">
@@ -7,16 +7,22 @@
 </p>
 
 
-This repository contains the source code for my personal portfolio, developed using React.
-## Features
+This repository contains the source code for my personal freelance portfolio, built with HTML, CSS, and vanilla JavaScript.
+It showcases my skills, projects, and professional experiences as a web developer.
 
-Showcase of my skills, projects and professional experiences.
-Ability to contact me through a contact form.
-Responsive design for optimal viewing on different devices.
+- ✨ Features
+- 📌 Presentation of my skills and professional background
+- 💼 Showcase of recent projects with clear descriptions
+- 📬 Contact form for direct inquiries
+- 📱 Fully responsive design for desktops, tablets, and mobile devices
+- ⚡ SEO-friendly with proper meta tags and Open Graph support
+- 🌐 Optional smooth scroll and section animations for a modern feel
 
-## Technologies Used
 
-- React
-- PWA
-- Nginx
-- Docker
+🛠️ Technologies
+
+HTML / CSS / JavaScript – Lightweight, SEO-friendly frontend
+
+Nginx – For serving static files
+
+Docker – For easy containerized deployment
