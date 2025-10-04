@@ -2,10 +2,10 @@ FROM node:18-alpine as build
 
 WORKDIR /app
 
-COPY ./src ./src
+COPY . .
 
 FROM nginx:alpine
 
-COPY --from=build /app /usr/share/nginx/html
+COPY --from=build /app/src /usr/share/nginx/html
 
 EXPOSE 80
