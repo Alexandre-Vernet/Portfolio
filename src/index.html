@@ -5,23 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Freelance - Alexandre Vernet</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- SEO -->
     <meta name="description"
           content="Portfolio de Alexandre Vernet, développeur freelance spécialisé en applications web modernes, performantes et élégantes.">
     <meta name="keywords"
           content="Alexandre Vernet, développeur freelance, portfolio, web, application, Angular, Java, Spring Boot, React">
     <meta name="author" content="Alexandre Vernet">
-
-    <!-- Open Graph pour réseaux sociaux -->
     <meta property="og:title" content="Portfolio Freelance - Alexandre Vernet">
     <meta property="og:description"
           content="Découvrez mes projets et contactez-moi pour vos besoins en développement web et mobile.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://alexandre-vernet.fr/">
     <meta property="og:image" content="https://tonsite.com/preview.png">
-
-    <!-- Favicon -->
     <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
@@ -50,17 +44,26 @@
     <h2>Projets récents</h2>
     <div class="projects">
         <div class="card">
-            <h3>Superstore</h3>
-            <p>Plateforme e-commerce incluant gestion des produits, gestion des commandes, espace administrateur (gérer
-                les stocks, commandes et code promo) et paiement en ligne</p>
+            <a href="https://superstore.alexandre-vernet.fr/" target="_blank">
+                <h3>Superstore</h3>
+                <p>Plateforme e-commerce complète avec gestion des produits, suivi des commandes, espace administrateur
+                    pour les stocks et promotions, et intégration du paiement en ligne.</p>
+            </a>
         </div>
         <div class="card">
-            <h3>Projet 2</h3>
-            <p>Plateforme e-commerce optimisée pour la performance.</p>
+            <a href="https://a-table.alexandre-vernet.fr/" target="_blank">
+                <h3>À Table !</h3>
+                <p>Application communautaire de cuisine permettant aux utilisateurs de publier, partager et découvrir
+                    des
+                    recettes.</p>
+            </a>
         </div>
         <div class="card">
-            <h3>Projet 3</h3>
-            <p>API backend robuste et sécurisée, intégrée avec un frontend Angular.</p>
+            <a href="https://my-workout.alexandre-vernet.fr/" target="_blank">
+                <h3>My-Workout</h3>
+                <p>Application mobile de suivi sportif : enregistrement des performances, analyse des progrès avec
+                    graphiques et historique détaillé des séances.</p>
+            </a>
         </div>
     </div>
 </section>
@@ -68,17 +71,17 @@
 <section id="contact">
     <h2>Contact</h2>
     <p>Envoyez-moi un message pour discuter de votre projet.</p>
-    <a href="mailto:alex.dev@email.com" class="btn">Me
-        contacter
+    <a href="mailto:avernet.dev@gmail.com" class="btn">Me contacter
     </a>
 </section>
 
 <footer>
-    <p>© 2025 Alexandre Vernet - Tous droits réservés.</p>
+    <p>© <span id="current-year">2025</span> Alexandre Vernet - Tous droits réservés.</p>
     <p>
         <a href="https://www.linkedin.com/in/alexandre-vernet-60b6831a3/" target="_blank">LinkedIn</a> ·
         <a href="https://github.com/Alexandre-Vernet" target="_blank">GitHub</a>
     </p>
 </footer>
+<script src="main.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@ FROM node:18-alpine as build
 
 WORKDIR /app
 
-COPY . .
+COPY ./src ./src
 
 FROM nginx:alpine
 
