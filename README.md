@@ -2,8 +2,7 @@
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72151831/229162363-cbcd2d28-7044-42bf-a540-a07fd0b7b2a4.png"
-    width="300px">
+  <img src="https://github.com/user-attachments/assets/6da56ac4-e034-4ef6-8a9d-441a479ae37b" width="400px">
 </p>
 
 
