@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Freelance - Alexandre Vernet</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
     <meta name="description"
           content="Portfolio de Alexandre Vernet, développeur freelance spécialisé en applications web modernes, performantes et élégantes.">
     <meta name="keywords"
@@ -15,20 +16,28 @@
           content="Découvrez mes projets et contactez-moi pour vos besoins en développement web et mobile.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://alexandre-vernet.fr/">
-    <meta property="og:image" content="https://tonsite.com/preview.png">
-    <link rel="icon" href="favicon.png" type="image/png">
+    <meta property="og:image" content="https://alexandre-vernet.fr/assets/Logo.png">
+    <link rel="icon" href="../assets/Logo-bg-blanc.png" type="image/png">
 </head>
 <body>
 <header>
     <h1>Alexandre Vernet</h1>
-    <nav>
-        <a href="#about">À propos</a>
-        <a href="#projects">Projets</a>
-        <a href="#contact">Contact</a>
+    <nav id="nav-menu">
+        <a href="#about" onclick="hideHamburger()">À propos</a>
+        <a href="#projects" onclick="hideHamburger()">Projets</a>
+        <a href="#contact" onclick="hideHamburger()">Contact</a>
     </nav>
+
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 </header>
 
+
 <section class="hero">
+    <img class="logo" src="../assets/Logo-bg-blanc.png" alt="logo">
     <h2>Développeur Freelance</h2>
     <p>Je crée des applications modernes, performantes et élégantes pour le web et le mobile.</p>
     <a href="#contact" class="btn">Travaillons ensemble 🚀</a>
