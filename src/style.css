@@ -99,22 +99,6 @@ section {
     color: #94a3b8;
 }
 
-.btn {
-    display: inline-block;
-    background: linear-gradient(135deg, #38bdf8, #6366f1);
-    color: white;
-    padding: 0.8rem 1.5rem;
-    border-radius: 9999px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.4);
-}
-
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -173,7 +157,7 @@ footer {
 }
 
 footer a {
-    color: #38bdf8;
+    color: #009fd2;
     text-decoration: none;
     margin: 0 0.5rem;
 }
@@ -182,7 +166,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Accessibilité : cacher labels visuels */
 .sr-only {
     position: absolute;
     left: -9999px;
